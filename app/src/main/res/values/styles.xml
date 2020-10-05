@@ -1,0 +1,44 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Customize your text here -->
+    <style name="TextStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginEnd">@dimen/_16sdp</item>
+        <item name="android:layout_marginStart">@dimen/_16sdp</item>
+        <item name="android:layout_marginTop">@dimen/_10sdp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAlignment">viewEnd</item>
+        <item name="android:gravity">end</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Display2</item>
+    </style>
+
+    <!-- Customize your text here -->
+    <style name="ActionButtonStyle">
+        <item name="background">@drawable/shape_circle</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:textSize">@dimen/_20sdp</item>
+        <item name="android:elevation">@dimen/_10sdp</item>
+        <item name="android:textColor">@color/actionbuttoncolor</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!-- Customize your text here -->
+    <style name="NumberButtonStyle">
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:elevation">@dimen/_10sdp</item>
+        <item name="android:textSize">@dimen/_20sdp</item>
+        <item name="background">@drawable/shape_circle</item>
+        <item name="android:textColor">@color/numberbuttoncolor</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+</resources>
